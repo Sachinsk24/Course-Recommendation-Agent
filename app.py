@@ -1,14 +1,13 @@
 import os
-import json
-import time
+import streamlit as st
 from dotenv import load_dotenv
 from google import genai
 
-# Load environment variables
 load_dotenv()
 
-# Create Gemini client
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+api_key = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
+
+client = genai.Client(api_key=api_key)
 
 # Load course catalogue
 with open("courses.json", "r", encoding="utf-8") as f:
