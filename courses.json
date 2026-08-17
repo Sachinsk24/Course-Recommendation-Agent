@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Python Programming",
+    "category": "Programming",
+    "prerequisites": [],
+    "skills": ["Python Basics", "Functions", "OOP"]
+  },
+  {
+    "name": "C Programming",
+    "category": "Programming",
+    "prerequisites": [],
+    "skills": ["Variables", "Pointers", "Memory Management"]
+  },
+  {
+    "name": "Java Programming",
+    "category": "Programming",
+    "prerequisites": [],
+    "skills": ["OOP", "Collections", "Java Basics"]
+  },
+  {
+    "name": "HTML & CSS",
+    "category": "Web Development",
+    "prerequisites": [],
+    "skills": ["HTML5", "CSS3", "Responsive Design"]
+  },
+  {
+    "name": "JavaScript",
+    "category": "Web Development",
+    "prerequisites": ["HTML & CSS"],
+    "skills": ["DOM", "ES6", "Events"]
+  },
+  {
+    "name": "React",
+    "category": "Web Development",
+    "prerequisites": ["JavaScript"],
+    "skills": ["Components", "Hooks", "Routing"]
+  },
+  {
+    "name": "Node.js",
+    "category": "Web Development",
+    "prerequisites": ["JavaScript"],
+    "skills": ["Express", "REST APIs", "Backend Development"]
+  },
+  {
+    "name": "SQL",
+    "category": "Database",
+    "prerequisites": [],
+    "skills": ["Queries", "Joins", "Normalization"]
+  },
+  {
+    "name": "MongoDB",
+    "category": "Database",
+    "prerequisites": ["SQL"],
+    "skills": ["NoSQL", "Aggregation", "CRUD"]
+  },
+  {
+    "name": "Statistics",
+    "category": "Data Science",
+    "prerequisites": ["Python Programming"],
+    "skills": ["Probability", "Hypothesis Testing"]
+  },
+  {
+    "name": "Pandas & NumPy",
+    "category": "Data Science",
+    "prerequisites": ["Python Programming"],
+    "skills": ["Data Analysis", "Data Cleaning"]
+  },
+  {
+    "name": "Machine Learning",
+    "category": "AI",
+    "prerequisites": ["Statistics", "Pandas & NumPy"],
+    "skills": ["Regression", "Classification", "Scikit-learn"]
+  },
+  {
+    "name": "Deep Learning",
+    "category": "AI",
+    "prerequisites": ["Machine Learning"],
+    "skills": ["TensorFlow", "PyTorch", "Neural Networks"]
+  },
+  {
+    "name": "FastAPI",
+    "category": "Backend",
+    "prerequisites": ["Python Programming"],
+    "skills": ["REST APIs", "Backend Services"]
+  },
+  {
+    "name": "Docker",
+    "category": "DevOps",
+    "prerequisites": [],
+    "skills": ["Containers", "Deployment"]
+  },
+  {
+    "name": "AWS Cloud Basics",
+    "category": "Cloud",
+    "prerequisites": [],
+    "skills": ["EC2", "S3", "IAM"]
+  },
+  {
+    "name": "Git & GitHub",
+    "category": "Tools",
+    "prerequisites": [],
+    "skills": ["Version Control", "Collaboration"]
+  },
+  {
+    "name": "Android Development",
+    "category": "Mobile",
+    "prerequisites": ["Java Programming"],
+    "skills": ["Android Studio", "Kotlin Basics"]
+  },
+  {
+    "name": "Cyber Security Fundamentals",
+    "category": "Security",
+    "prerequisites": [],
+    "skills": ["Networking", "Security Principles"]
+  },
+  {
+    "name": "Data Structures & Algorithms",
+    "category": "Programming",
+    "prerequisites": ["Python Programming"],
+    "skills": ["Arrays", "Trees", "Graphs"]
+  }
+]

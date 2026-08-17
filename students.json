@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rahul",
+    "background": "B.Tech CSE",
+    "skills": "Python, SQL",
+    "goal": "Data Scientist"
+  },
+  {
+    "name": "Priya",
+    "background": "BCA",
+    "skills": "HTML, CSS",
+    "goal": "Frontend Developer"
+  },
+  {
+    "name": "Aman",
+    "background": "Diploma",
+    "skills": "Python",
+    "goal": "Backend Developer"
+  },
+  {
+    "name": "Sneha",
+    "background": "B.Sc IT",
+    "skills": "Java",
+    "goal": "Android Developer"
+  }
+]
